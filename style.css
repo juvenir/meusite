@@ -89,11 +89,11 @@ body {
     margin-top: 30px;
 }
 .topo2 .banner {
-    width: 650px;
     height: 80px;
     float: right;
     margin-top: 7px;
-    background-color: #FF0000;
+   /* background-color: #FF0000;*/
+    
 }
 .menu {
     height: 40px;
@@ -153,13 +153,13 @@ body {
     background-color: #FF4444;
 }
 .ultnoticias {
-    height: 50px;
+    height: 38px;
     /*background-color: 33;*/
 }
 .ultnoticiasint {
     width: 100%;
     max-width: 1040px;
-    height: 50px;
+    height: 40px;
    /* background-color: aqua;*/
     margin: auto;
 }
@@ -185,4 +185,40 @@ body {
     display: inline-block;
     line-height: 28px;
     padding-left: 5px;
+}
+.containerint {
+    width: 100%;
+    max-width: 1040px;
+    margin: auto;
+}
+.rightside {
+    width: 275px;
+    /*min-height: 260px;*/
+    float: right;
+    /*background-color: #999;*/
+    margin-left: 10px;
+}
+.leftside {
+    width: 755px;
+    min-height: 260px;
+    float: left;
+    background-color: #999;
+}
+.widget {
+    border: 1px solid #CCC;
+    background-color: #FFF;
+    margin-bottom: 10px;
+}
+.widget_titulo {
+    height: 30px;
+    line-height: 30px;
+    background-color: #DDD;
+    border-bottom: 1px solid #CCC;
+    padding-left: 5px;
+    font-size: 14px;
+}
+.widget_conteudo {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
 }
