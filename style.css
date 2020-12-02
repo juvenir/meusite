@@ -309,6 +309,20 @@ body {
     background-color: #CCC;
     border-radius: 10px;
 }
+@media only screen and (max-width:1057px) {
+    .topoint,
+    .topo2int,
+    .menuint,
+    .ultnoticiasint,
+    .containerint {
+        max-width: 890px;
+        
+	
+}
+    .leftside {
+	width: 600px;
+}
+}
 
 
 
