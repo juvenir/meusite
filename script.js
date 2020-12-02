@@ -17,3 +17,9 @@ function passarSlide() {
     }
     document.getElementsByClassName("slideshowarea")[0].style.marginLeft = "-"+(slidewidth * slideItem)+"px";
 }
+function mudarSlide(pos) {
+    slideItem = pos;
+    var slidewidth = document.getElementById("slideshow").offsetWidth;
+    document.getElementsByClassName("slideshowarea")[0].style.marginLeft = "-"+(slidewidth * slideItem)+"px";
+
+}

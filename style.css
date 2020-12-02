@@ -295,6 +295,20 @@ body {
     background-position: center;
     background-size: cover;
 }*/
+.ballslideselect {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+}
+.ball {
+	width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 5px;
+    cursor: pointer;
+    background-color: #CCC;
+    border-radius: 10px;
+}
 
 
 
