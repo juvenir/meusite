@@ -200,9 +200,7 @@ body {
 }
 .leftside {
     width: 755px;
-    min-height: 260px;
     float: left;
-    background-color: #999;
 }
 .widget {
     border: 1px solid #CCC;
@@ -222,3 +220,87 @@ body {
     padding-bottom: 5px;
     text-align: center;
 }
+.slideshow {
+	height: 335px;
+    overflow: hidden;
+    background-color: #CCC;
+}
+.slideshowarea {
+    height: 335px;
+    width: 10000px;
+    background-color: #CCC;
+    transition: all 1s;
+
+    
+}
+.slide {
+	height: 335px;
+    width: 775px;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.slideinfo {
+	height: 70px;
+    background-image: url('Imagens/degrade.png');
+    background-size: auto 70px;
+    margin-top: 265px;
+}
+.slideinfo_titulo {
+	color: #FFF;
+    font-size: 25px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.slideinfo_subtitulo {
+	color: #FFF;
+    font-size: 15px;
+    padding-left: 15px;
+}
+/*.slide1 {
+	background-image: url('Imagens/ark.jpg');
+    width: 755px;
+    height: 335px;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.slide2 {
+	background-image: url('Imagens/cod.jpg');
+    width: 755px;
+    height: 335px;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.slide3 {
+	background-image: url('Imagens/pubg.jpg');
+    width: 755px;
+    height: 335px;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.slide4 {
+	background-image: url('Imagens/ff.jpg');
+    width: 755px;
+    height: 335px;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}*/
+
+
+
+
+
+
+
+
+

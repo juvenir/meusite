@@ -6,6 +6,7 @@
     <meta id="viewport" name="viewport" content="width=device-width, user-scalable=no" />
     <title>Juvenir Teixeira</title>
     <link href="style.css" rel="stylesheet" />
+    <script type="text/javascript" src="script.js"></script>
 </head>
 
 <body>
@@ -30,8 +31,8 @@
     </div>
     <div class="topo2">
         <div class="topo2int">
-           <div class="logo"><img src="Imagens/juvenirlogo.png" border="0" width="230" alt=""></div>
-           <div class="banner"><iframe height="80" src="https://www.youtube.com/embed/996aGiT2Y4c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <div class="logo"><img src="Imagens/juvenirlogo.png" border="0" width="230" alt=""></div>
+            <div class="banner"><iframe height="80" src="https://www.youtube.com/embed/996aGiT2Y4c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         </div>
     </div>
     <div class="menu">
@@ -40,13 +41,21 @@
                 <li class="menuitem"><a href="">Videos</a></li>
                 <li class="menuitem"><a href="">Fotos</a></li>
                 <li class="menuitem"><a href="">Produtos</a>
-                   <img src="Imagens/down-arrow.png" border="0" width="10" alt=""/>
-                   <div class="submenu">
-                       <a href="./"><div class="subitem">submenu1</div></a>
-                       <a href="./"><div class="subitem">submenu1</div></a>
-                       <a href="./"><div class="subitem">submenu1</div></a>
-                       <a href="./"><div class="subitem">submenu1</div></a>
-                   </div>
+                    <img src="Imagens/down-arrow.png" border="0" width="10" alt="" />
+                    <div class="submenu">
+                        <a href="./">
+                            <div class="subitem">submenu1</div>
+                        </a>
+                        <a href="./">
+                            <div class="subitem">submenu1</div>
+                        </a>
+                        <a href="./">
+                            <div class="subitem">submenu1</div>
+                        </a>
+                        <a href="./">
+                            <div class="subitem">submenu1</div>
+                        </a>
+                    </div>
                 </li>
             </ul>
         </div>
@@ -61,7 +70,28 @@
     </div>
     <div class="container">
         <div class="containerint">
-            <div class="leftside"></div>
+            <div class="leftside">
+                <div class="slideshow" id="slideshow">
+                    <div class="slideshowarea">
+                        <div class="slide" style="background-image: url('Imagens/ark.jpg');">
+                            <!--<img src="Imagens/ark.jpg" border="0" alt=""/>-->
+                            <div class="slideinfo">
+                                <div class="slideinfo_titulo">Ark Survival Evolved</div>
+                                <div class="slideinfo_subtitulo">Um jogo muito complexo e viciante.</div>
+                            </div>
+                        </div>
+                        <div class="slide" style="background-image: url('Imagens/cod.jpg');">
+                            <!--<img src="Imagens/pubg.jpg" border="0" alt=""/>-->
+                        </div>
+                        <div class="slide" style="background-image: url('Imagens/pubg.jpg');">
+                            <!--<img src="Imagens/cod.jpg" border="0" alt=""/>-->
+                        </div>
+                        <div class="slide" style="background-image: url('Imagens/ff.jpg');">
+                            <!--<img src="Imagens/ff.jpg" border="0" alt=""/>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="rightside">
                 <div class="widget">
                     <div class="widget_titulo">Compartilhar</div>
@@ -70,19 +100,20 @@
                 <div class="widget">
                     <div class="widget_titulo">Ultimas Notícias</div>
                     <div class="widget_conteudo"><iframe frameborder="0" src="https://opticanet.com.br/secao/widget/widget_UltNoticias.aspx?itens=3" width="100%" height="450" scrolling="auto"></iframe></div>
-                </div><div class="widget">
+                </div>
+                <div class="widget">
                     <div class="widget_titulo">Publicidade</div>
                     <div class="widget_conteudo"><img src="Imagens/SERVER%20WIPADO.png" width="272" alt=""></div>
-                <div class="widget">
-                    <div class="widget_titulo">Encontre-nos no Facebook</div>
-                    <div class="widget_conteudo"><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fiprabcajueiro&tabs=events&width=275&height=244&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="272" height="244" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe></div>
-                </div>
+                    <div class="widget">
+                        <div class="widget_titulo">Encontre-nos no Facebook</div>
+                        <div class="widget_conteudo"><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fiprabcajueiro&tabs=events&width=275&height=244&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="272" height="244" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe></div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <script type="text/javascript" src="jquery-3.5.1.min.js"></script>
-    <script type="text/javascript" src="script.js"></script>
+    <!--<script type="text/javascript" src="jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>-->
 
 </body>
 
