@@ -68,12 +68,14 @@ body {
 .toporight input {
     float: right;
 }
+
 .toporight img {
     margin-right: 3px;
 }
+
 .topo2 {
     height: 95px;
-   /* background-color: #C0C0C0;*/
+    /* background-color: #C0C0C0;*/
 }
 
 .topo2int {
@@ -82,41 +84,47 @@ body {
     height: 95px;
     margin: auto;
 }
+
 .logo {
     width: 280px;
     height: 65px;
     float: left;
     margin-top: 30px;
 }
+
 .topo2 .banner {
     height: 80px;
     float: right;
     margin-top: 7px;
-   /* background-color: #FF0000;*/
-    
+    /* background-color: #FF0000;*/
 }
+
 .menu {
     height: 40px;
     background-color: #FF0000;
 }
+
 .menuint {
     width: 100%;
     max-width: 1040px;
     height: 40px;
     margin: auto;
 }
+
 .menuint ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
+
 .menuint li {
     float: left;
     height: 40px;
     line-height: 40px;
     margin-left: 8px;
-    margin-right: 8px;    
+    margin-right: 8px;
 }
+
 /*.menuitem {
     padding-left: 10px;
     padding-right: 10px;
@@ -131,44 +139,50 @@ body {
     text-decoration: none;
     color: #FFF;
 }
+
 .menuint li:hover .submenu {
     display: block;
 }
+
 .submenu {
     width: 150px;
     position: absolute;
     display: none;
     background-color: #FF0000;
     margin: auto;
-    
 }
+
 .subitem {
     width: 140px;
     height: 30px;
     line-height: 30px;
     padding-left: 5px;
-    
 }
+
 .subitem:hover {
     background-color: #FF4444;
 }
+
 .ultnoticias {
     height: 38px;
     /*background-color: 33;*/
 }
+
 .ultnoticiasint {
     width: 100%;
     max-width: 1040px;
     height: 40px;
-   /* background-color: aqua;*/
+    /* background-color: aqua;*/
     margin: auto;
 }
+
 .ultnarea {
     height: 28px;
     border: 1px solid #999;
     background-color: #FFF;
     margin-top: 10px;
 }
+
 .ultnmanchete {
     height: 28px;
     background-color: #FF0000;
@@ -179,6 +193,7 @@ body {
     padding-right: 10px;
     font-size: 16px;
 }
+
 .ultnnoticia {
     height: 28px;
     color: #000;
@@ -186,11 +201,13 @@ body {
     line-height: 28px;
     padding-left: 5px;
 }
+
 .containerint {
     width: 100%;
     max-width: 1040px;
     margin: auto;
 }
+
 .rightside {
     width: 275px;
     /*min-height: 260px;*/
@@ -198,15 +215,18 @@ body {
     /*background-color: #999;*/
     margin-left: 10px;
 }
+
 .leftside {
     width: 755px;
     float: left;
 }
+
 .widget {
     border: 1px solid #CCC;
     background-color: #FFF;
     margin-bottom: 10px;
 }
+
 .widget_titulo {
     height: 30px;
     line-height: 30px;
@@ -215,50 +235,55 @@ body {
     padding-left: 5px;
     font-size: 14px;
 }
+
 .widget_conteudo {
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
 }
+
 .slideshow {
-	height: 335px;
+    height: 335px;
     overflow: hidden;
     background-color: #CCC;
 }
+
 .slideshowarea {
     height: 335px;
     width: 10000px;
     background-color: #CCC;
     transition: all 1s;
-
-    
 }
+
 .slide {
-	height: 335px;
+    height: 335px;
     width: 775px;
     float: left;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
 }
+
 .slideinfo {
-	height: 70px;
+    height: 70px;
     background-image: url('Imagens/degrade.png');
     background-size: auto 70px;
     margin-top: 265px;
 }
+
 .slideinfo_titulo {
-	color: #FFF;
+    color: #FFF;
     font-size: 25px;
     padding-top: 15px;
     padding-left: 15px;
 }
+
 .slideinfo_subtitulo {
-	color: #FFF;
+    color: #FFF;
     font-size: 15px;
     padding-left: 15px;
 }
+
 /*.slide1 {
 	background-image: url('Imagens/ark.jpg');
     width: 755px;
@@ -300,8 +325,9 @@ body {
     width: 100px;
     height: 20px;
 }
+
 .ball {
-	width: 20px;
+    width: 20px;
     height: 20px;
     float: left;
     margin-right: 5px;
@@ -309,26 +335,80 @@ body {
     background-color: #CCC;
     border-radius: 10px;
 }
-@media only screen and (max-width:1057px) {
+
+@media only screen and (min-width:903px) and (max-width:1057px) {
+
     .topoint,
     .topo2int,
     .menuint,
     .ultnoticiasint,
     .containerint {
         max-width: 890px;
-        
-	
-}
+    }
+
     .leftside {
-	width: 600px;
+        width: 600px;
+    }
 }
+
+@media only screen and (min-width:786px) and (max-width:906px) {
+
+    .topoint,
+    .topo2int,
+    .menuint,
+    .ultnoticiasint,
+    .containerint {
+        max-width: 768px;
+    }
+
+    .rightside {
+        margin: auto;
+        float: none;
+    }
+
+    .logo {
+        margin: auto;
+        float: none;
+        padding-left: 40px;
+        padding-top: 30px;
+    }
+
+    .topo2 .banner {
+        position: absolute;
+        height: 80px;
+        float: none;
+        margin-top: 1450px;
+        margin-left: 234px;
+    }
 }
 
+@media only screen and (max-width:786px) {
 
+    .topoint,
+    .topo2int,
+    .menuint,
+    .ultnoticiasint,
+    .containerint {
+        max-width: 320px;
+    }
 
+    .rightside {
+        margin: auto;
+        float: none;
+    }
 
+    .logo {
+        margin: auto;
+        float: none;
+        padding-left: 40px;
+        padding-top: 30px;
+    }
 
-
-
-
-
+    .topo2 .banner {
+        position: absolute;
+        height: 80px;
+        float: none;
+        margin-top: 1450px;
+        margin-left: 234px;
+    }
+}
