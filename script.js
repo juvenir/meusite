@@ -1,3 +1,4 @@
+//slide show or carousel
 var slideItem = 0;
 window.onload = function () {
     setInterval(passarSlide, 5000);
@@ -24,4 +25,13 @@ function mudarSlide(pos) {
     var slidewidth = document.getElementById("slideshow").offsetWidth;
     document.getElementsByClassName("slideshowarea")[0].style.marginLeft = "-" + (slidewidth * slideItem) + "px";
 
+}
+//click button menu mobile
+function toogleMenu() {
+    var menu = document.getElementById("menu");
+    if (menu.style.display == 'none' || menu.style.display == '') {
+        menu.style.display = "block";
+    } else {
+        menu.style.display = "none";
+    }
 }

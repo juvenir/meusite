@@ -336,6 +336,10 @@ body {
     border-radius: 10px;
 }
 
+.menumobile {
+    display: none;
+}
+
 @media only screen and (min-width:903px) and (max-width:1057px) {
 
     .topoint,
@@ -349,6 +353,11 @@ body {
     .leftside {
         width: 600px;
     }
+    #menu {
+	display: block !important;
+}
+
+
 }
 
 @media only screen and (min-width:786px) and (max-width:906px) {
@@ -380,6 +389,12 @@ body {
         margin-top: 1450px;
         margin-left: 234px;
     }
+
+    #menu {
+        display: block !important;
+    }
+
+
 }
 
 @media only screen and (max-width:786px) {
@@ -409,6 +424,53 @@ body {
         height: 80px;
         float: none;
         margin-top: 1450px;
-        margin-left: 234px;
+
+    }
+
+    /*menu mobile*/
+    .menu ul {
+        position: absolute;
+        background-color: #FF0000;
+        z-index: 10;
+        display: none;
+    }
+
+    .menu li {
+        float: none;
+        height: auto;
+    }
+
+    .menu li img {
+        display: none;
+    }
+
+    .submenu {
+        position: static;
+        display: block;
+    }
+
+    .topoleft {
+        display: none;
+    }
+
+    .toporight {
+        margin: auto;
+        width: 100%;
+        float: none;
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
+
+    .widget_conteudo {
+        margin: 5px;
+    }
+
+    .leftside {
+        width: 100%;
+    }
+
+    .menumobile {
+        display: block;
     }
 }
